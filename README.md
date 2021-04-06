@@ -11,7 +11,7 @@ Summary: A tracking and state estimation framework
 
 Development: https://github.com/dstl/Stone-Soup
 
-Documentation: https://stonesoup.rtfd.io/en/v0.1b4/
+Documentation: https://stonesoup.rtfd.io/en/v0.1b5/
 
 Stone Soup is a software project to provide the target tracking and
 state estimation community with a framework for the development and
