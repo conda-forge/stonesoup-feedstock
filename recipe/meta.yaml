@@ -30,6 +30,7 @@ requirements:
     - scipy
     - setuptools >=42
     - utm
+    - rtree
 
 test:
   imports:
