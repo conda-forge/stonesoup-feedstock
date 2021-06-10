@@ -11,7 +11,7 @@ Summary: A tracking and state estimation framework
 
 Development: https://github.com/dstl/Stone-Soup
 
-Documentation: https://stonesoup.rtfd.io/en/v0.1b5/
+Documentation: https://stonesoup.rtfd.io/en/v0.1b6/
 
 Stone Soup is a software project to provide the target tracking and
 state estimation community with a framework for the development and
@@ -45,6 +45,7 @@ Installing `stonesoup` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `stonesoup` can be installed with:
