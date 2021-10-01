@@ -1,5 +1,5 @@
 {% set name = "stonesoup" %}
-{% set version = "0.1b6" %}
+{% set version = "0.1b7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4c60cedfb6e457d4bcebedbd9f0c413d9e941e8da792cdfc62907775f02b2635
+  sha256: 4bb4962dd4227c806d40349febda1e1bdc72500feb47d316823377fb94db40bb
 
 build:
   noarch: python
