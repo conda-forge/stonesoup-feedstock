@@ -1,5 +1,5 @@
 {% set name = "stonesoup" %}
-{% set version = "0.1b7" %}
+{% set version = "0.1b8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4bb4962dd4227c806d40349febda1e1bdc72500feb47d316823377fb94db40bb
+  sha256: 387b6acd65a9104feecf1ad2c593c120597a527d41865ac4e3125ecd4a9f3358
 
 build:
   noarch: python
@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools-scm
     - setuptools_scm_git_archive
   run:
-    - python >=3.6
+    - python >=3.7
     - matplotlib-base
     - numpy >=1.17
     - pymap3d
