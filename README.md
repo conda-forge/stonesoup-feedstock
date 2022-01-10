@@ -11,7 +11,7 @@ Summary: A tracking and state estimation framework
 
 Development: https://github.com/dstl/Stone-Soup
 
-Documentation: https://stonesoup.rtfd.io/en/v0.1b7/
+Documentation: https://stonesoup.rtfd.io/en/v0.1b8/
 
 Stone Soup is a software project to provide the target tracking and
 state estimation community with a framework for the development and
@@ -64,7 +64,8 @@ conda search stonesoup --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -124,5 +125,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@oharrald-dstl](https://github.com/oharrald-dstl/)
 * [@sdhiscocks](https://github.com/sdhiscocks/)
 
