@@ -1,5 +1,5 @@
 {% set name = "stonesoup" %}
-{% set version = "0.1b9" %}
+{% set version = "0.1b10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d1220c4e8560176796a097dc35f61bdcf12975494a3bb53098118a7b6a7bb1d1
+  sha256: 893b2cf4fdefbe953c7822fb68915bc2a18b600ec1e62a6b444b384c67673a6d
 
 build:
   noarch: python
@@ -19,16 +19,15 @@ requirements:
   host:
     - python >=3.7
     - pip
-    - setuptools-scm
-    - setuptools_scm_git_archive
+    - setuptools-scm >=7
   run:
     - python >=3.7
     - matplotlib-base
     - numpy >=1.17
     - pymap3d
-    - ruamel.yaml >=0.15.45
+    - ruamel.yaml >=0.16.5
     - scipy
-    - setuptools >=42
+    - setuptools >=45
     - utm
     - rtree
     - ordered-set
@@ -55,5 +54,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - oharrald-dstl
     - sdhiscocks
