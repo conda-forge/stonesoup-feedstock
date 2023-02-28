@@ -1,17 +1,17 @@
-About stonesoup
-===============
+About stonesoup-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stonesoup-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dstl/Stone-Soup
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stonesoup-feedstock/blob/main/LICENSE.txt)
-
 Summary: A tracking and state estimation framework
 
 Development: https://github.com/dstl/Stone-Soup
 
-Documentation: https://stonesoup.rtfd.io/en/v0.1b11/
+Documentation: https://stonesoup.rtfd.io/en/v0.1b12/
 
 Stone Soup is a software project to provide the target tracking and
 state estimation community with a framework for the development and
@@ -152,5 +152,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@nperree-dstl](https://github.com/nperree-dstl/)
 * [@sdhiscocks](https://github.com/sdhiscocks/)
 
