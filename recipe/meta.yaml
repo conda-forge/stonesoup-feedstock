@@ -1,5 +1,5 @@
 {% set name = "stonesoup" %}
-{% set version = "1.1" %}
+{% set version = "1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ece4c65e6e8c1a408db54603cf0435550dc1ed2423d013cf9d3d9324c05bb648
+  sha256: d62549f4c66adebecf6a7f39d73ea205e89e2932f9310767a52e5c49c29c2b3c
 
 build:
   noarch: python
@@ -19,7 +19,8 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - setuptools-scm >=7
+    - setuptools-scm >=8
+    - setuptools >=64
   run:
     - python >=3.8
     - matplotlib-base
@@ -27,7 +28,6 @@ requirements:
     - pymap3d
     - ruamel.yaml >=0.16.5
     - scipy
-    - setuptools >=45
     - utm
     - rtree
     - ordered-set
