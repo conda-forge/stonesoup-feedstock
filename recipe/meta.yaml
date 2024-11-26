@@ -1,5 +1,6 @@
 {% set name = "stonesoup" %}
 {% set version = "1.5" %}
+{% set python_min = "3.8" %}
 
 
 package:
@@ -17,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools-scm >=8
     - setuptools >=64
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - matplotlib-base
     - mergedeep
     - numpy >=1.17
