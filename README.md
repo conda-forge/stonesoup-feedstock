@@ -11,7 +11,7 @@ Summary: A tracking and state estimation framework
 
 Development: https://github.com/dstl/Stone-Soup
 
-Documentation: https://stonesoup.rtfd.io/en/v1.5/
+Documentation: https://stonesoup.rtfd.io/en/v1.6/
 
 Stone Soup is a software project to provide the target tracking and
 state estimation community with a framework for the development and
@@ -152,6 +152,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@csherman-dstl](https://github.com/csherman-dstl/)
 * [@nperree-dstl](https://github.com/nperree-dstl/)
 * [@sdhiscocks](https://github.com/sdhiscocks/)
 
