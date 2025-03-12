@@ -1,5 +1,5 @@
 {% set name = "stonesoup" %}
-{% set version = "1.5" %}
+{% set version = "1.6" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c4c464647940e99b875b9d5edc9ae952564c17fd47f2fbd7447d998dc7f8ca87
+  sha256: 0590f4587e486fb3bec1f62364c03b9147728775b07d1099d508e2d97f8ede93
 
 build:
   noarch: python
