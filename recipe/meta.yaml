@@ -58,5 +58,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - csherman-dstl
     - nperree-dstl
     - sdhiscocks
